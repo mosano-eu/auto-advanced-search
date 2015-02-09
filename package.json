@@ -1,0 +1,28 @@
+{
+  "name": "mysql-match-against-boolean-mode",
+  "version": "0.0.1",
+  "description": "mysql-match-against-boolean-mode is a module to work queries in mysql match-against mode in boolean mode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunocasanova/mysql-match-against-boolean-mode.git"
+  },
+  "keywords": [
+    "findhit",
+    "mysql",
+    "match",
+    "against",
+    "boolean",
+    "mode",
+    "brunocasanova"
+  ],
+  "author": "Bruno Casanova <deftonicks_me@hotmail.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/brunocasanova/mysql-match-against-boolean-mode/issues"
+  },
+  "homepage": "https://github.com/brunocasanova/mysql-match-against-boolean-mode"
+}
