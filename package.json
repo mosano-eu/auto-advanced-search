@@ -1,17 +1,20 @@
 {
-  "name": "mysql-match-against-boolean-mode",
+  "name": "auto-advanced-search",
   "version": "0.0.1",
-  "description": "mysql-match-against-boolean-mode is a module to work queries in mysql match-against mode in boolean mode.",
+  "description": "auto-advanced-search is a module to work queries in mysql match-against mode in boolean mode.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brunocasanova/mysql-match-against-boolean-mode.git"
+    "url": "https://github.com/brunocasanova/auto-advanced-search.git"
   },
   "keywords": [
     "findhit",
+    "auto",
+    "advanced",
+    "search",
     "mysql",
     "match",
     "against",
@@ -22,7 +25,7 @@
   "author": "Bruno Casanova <deftonicks_me@hotmail.com>",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/brunocasanova/mysql-match-against-boolean-mode/issues"
+    "url": "https://github.com/brunocasanova/auto-advanced-search/issues"
   },
-  "homepage": "https://github.com/brunocasanova/mysql-match-against-boolean-mode"
+  "homepage": "https://github.com/brunocasanova/auto-advanced-search"
 }
