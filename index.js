@@ -1,1 +1,1 @@
-module.exports = require( './lib/query.js' );
+module.exports = require( './lib/query' );
