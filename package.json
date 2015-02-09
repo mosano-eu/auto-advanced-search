@@ -27,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/brunocasanova/auto-advanced-search/issues"
   },
-  "homepage": "https://github.com/brunocasanova/auto-advanced-search"
+  "homepage": "https://github.com/brunocasanova/auto-advanced-search",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  }
 }
