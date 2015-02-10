@@ -6,7 +6,7 @@ Auto-advanced-search is a module to prepare strings to perform match against in 
 
 ***Example:***
 
-```
+`````
 
 // Require dependencies
 var aas = require( 'auto-advanced-search' );
@@ -17,6 +17,7 @@ var string = 'something that i want to find',
 // Call function with the required query
 var query = aas( string );
 
-// query - returns '+something +that +want +find'
+// Returned result
+	// query - returns '+something +that +want +find'
 
 ```
