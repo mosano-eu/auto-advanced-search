@@ -29,13 +29,13 @@ describe( "auto-advanced-search", function() {
 		var string = 'one two six ten',
 			fn = aas( string );
 
-		it( 'should have a length of 4', function (){
-			// The length is 4 because the plus have been added here.
-			expect( fn ).to.have.length( 4 );
+		it( 'should have a length of 5', function (){
+			// The length is 5 because the plus have been added here.
+			expect( fn ).to.have.length( 5 );
 		});
 
 		it( 'should return one string with a plus in the begining', function (){
-			expect( fn ).to.equal( '+one' );
+			expect( fn ).to.equal( '+one*' );
 		});
 	
 	});
@@ -44,13 +44,13 @@ describe( "auto-advanced-search", function() {
 		var string = 'x',
 			fn = aas( string );
 
-		it( 'should have a length of 2', function (){
-			// The length is 2 because the plus have been added here.
-			expect( fn ).to.have.length( 2 );
+		it( 'should have a length of 3', function (){
+			// The length is 3 because the plus have been added here.
+			expect( fn ).to.have.length( 3 );
 		});
 
 		it( 'should return one string with a plus in the begining', function (){
-			expect( fn ).to.equal( '+x' );
+			expect( fn ).to.equal( '+x*' );
 		});
 	
 	});
@@ -59,13 +59,13 @@ describe( "auto-advanced-search", function() {
 		var string = 'xx',
 			fn = aas( string );
 
-		it( 'should have a length of 3', function (){
-			// The length is 3 because the plus have been added here.
-			expect( fn ).to.have.length( 3 );
+		it( 'should have a length of 4', function (){
+			// The length is 4 because the plus have been added here.
+			expect( fn ).to.have.length( 4 );
 		});
 
 		it( 'should return one string with a plus in the begining', function (){
-			expect( fn ).to.equal( '+xx' );
+			expect( fn ).to.equal( '+xx*' );
 		});
 	});
 
@@ -73,13 +73,13 @@ describe( "auto-advanced-search", function() {
 		var string = 'xxx',
 			fn = aas( string );
 
-		it( 'should have a length of 4', function (){
-			// The length is 4 because the plus have been added here.
-			expect( fn ).to.have.length( 4 );
+		it( 'should have a length of 5', function (){
+			// The length is 5 because the plus have been added here.
+			expect( fn ).to.have.length( 5 );
 		});
 
 		it( 'should return one string with a plus in the begining', function (){
-			expect( fn ).to.equal( '+xxx' );
+			expect( fn ).to.equal( '+xxx*' );
 		});
 	
 	});
@@ -94,7 +94,7 @@ describe( "auto-advanced-search", function() {
 		});
 
 		it( 'should return one string with a plus in the begining', function (){
-			expect( fn ).to.equal( '+vila' );
+			expect( fn ).to.equal( '+vila*' );
 		});
 	
 	});
@@ -104,7 +104,7 @@ describe( "auto-advanced-search", function() {
 			fn = aas( string );
 
 		it( 'should return two strings with a plus in the begining of each', function (){
-			expect( fn ).to.equal( '+vila +aver' );
+			expect( fn ).to.equal( '+vila +aver*' );
 		});
 	});
 
@@ -113,8 +113,33 @@ describe( "auto-advanced-search", function() {
 			fn = aas( string );
 
 		it( 'should return three strings with a plus in the begining of each', function (){
-			expect( fn ).to.equal( '+vila +aver +abrema' );
+			expect( fn ).to.equal( '+vila +aver +abrema*' );
 		});
+	});
+
+	describe( "the last string of teh word must have a '*' in the last character", function() {
+
+		it( 'should have "*" in the string. 1 word factor', function (){
+			var string = 'vila de',
+			fn = aas( string );
+
+			expect( fn ).to.equal( '+vila*' );
+		});
+
+		it( 'should have "*" in the last string. 2 words factor', function (){
+			var string = 'vila de aver o mar',
+			fn = aas( string );
+
+			expect( fn ).to.equal( '+vila +aver*' );
+		});
+
+		it( 'should have "*" in the last string. 3 words factor', function (){
+			var string = 'vila de aver o mar aka abrema',
+			fn = aas( string );
+
+			expect( fn ).to.equal( '+vila +aver +abrema*' );
+		});
+	
 	});
 
 	describe( "string: 666 ( number ) - if it isn´t a string", function() {
