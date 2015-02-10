@@ -1,7 +1,7 @@
 ## Upcoming
- 
+
 
 ## 0.0.1
 
-- Added methods:
-	//TODO
+- Method that will convert a query string into a MatchAgainst compatible
+- Tests for API
