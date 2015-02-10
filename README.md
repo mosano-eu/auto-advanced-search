@@ -1,5 +1,7 @@
 # auto-advanced-search
 
+[![Test Status](http://strider.findhit.com/findhit/auto-advanced-search/badge)](http://strider.findhit.com/findhit/auto-advanced-search) 
+
 *Auto-advanced-search is a module to prepare strings to perform match against in boolean mode modifier in mysql, that handles relevences of the required words for the query.*
 
 ***Dependencies:*** - ``findhit-util``
