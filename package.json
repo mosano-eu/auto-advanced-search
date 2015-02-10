@@ -30,7 +30,7 @@
   "homepage": "https://github.com/brunocasanova/auto-advanced-search",
   "devDependencies": {
     "chai": "^1.10.0",
-    "mocha": "^2.1.0",
+    "mocha": "^2.1.0"
   },
   "dependencies": {
     "findhit-util": "^0.2.7"

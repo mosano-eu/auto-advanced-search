@@ -15,7 +15,7 @@ describe( "auto-advanced-search", function() {
 	});
 
 	describe( "the returned result must be a string", function() {
-		var string = 'quinta de sao jose da penha',
+		var string = 'vila de aver o mar aka abrema',
 			fn = aas( string );
 
 		it( 'should exist and return a string', function (){
@@ -84,8 +84,8 @@ describe( "auto-advanced-search", function() {
 	
 	});
 
-	describe( "string:'quinta de' - one string factor", function() {
-		var string = 'quinta de',
+	describe( "string:'vila de' - one string factor", function() {
+		var string = 'vila de',
 			fn = aas( string );
 
 		it( 'should exist and return a string', function (){
@@ -93,27 +93,27 @@ describe( "auto-advanced-search", function() {
 			expect( fn ).to.be.a( 'string' );
 		});
 
-		it( 'should return one strings with plus in the begining of the string', function (){
-			expect( fn ).to.equal( '+quinta' );
+		it( 'should return one string with a plus in the begining', function (){
+			expect( fn ).to.equal( '+vila' );
 		});
 	
 	});
 
-	describe( "string:'quinta de sao jose' - two strings factor", function() {
-		var string = 'quinta de sao jose',
+	describe( "string:'vila de aver o mar' - two strings factor", function() {
+		var string = 'vila de aver o mar',
 			fn = aas( string );
 
-		it( 'should return two strings with plus in the begining of each', function (){
-			expect( fn ).to.equal( '+quinta +jose' );
+		it( 'should return two strings with a plus in the begining of each', function (){
+			expect( fn ).to.equal( '+vila +aver' );
 		});
 	});
 
-	describe( "string:'quinta de sao jose da penha' - three strings factor", function() {
-		var string = 'quinta de sao jose da penha',
+	describe( "string:'vila de aver o mar aka abrema' - three strings factor", function() {
+		var string = 'vila de aver o mar aka abrema',
 			fn = aas( string );
 
-		it( 'should return two strings with plus in the begining of each', function (){
-			expect( fn ).to.equal( '+quinta +jose +penha' );
+		it( 'should return three strings with a plus in the begining of each', function (){
+			expect( fn ).to.equal( '+vila +aver +abrema' );
 		});
 	});
 
