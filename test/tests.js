@@ -4,7 +4,7 @@ var aas = require( '../' ),
 
 describe( "auto-advanced-search", function() {
 
-	describe( "must return a function to parse query", function() {
+	describe( "must return a function to filter query", function() {
 		var fn = aas;
 
 		it( 'should exist and it is a function', function (){
@@ -119,6 +119,21 @@ describe( "auto-advanced-search", function() {
 
 	describe( "string: 666 ( number ) - if it isn´t a string", function() {
 		var string = 666,
+			fn = aas( string );
+
+		it( 'should not exist and have to be a string', function (){
+			expect( fn ).not.to.be.ok;
+			expect( fn ).to.be.a( 'string' );
+		});
+
+		it( 'should return an empty string', function (){
+			expect( fn ).to.equal( '' );
+		});
+	
+	});
+
+	describe( "string: empty - if string is empty return it", function() {
+		var string = '',
 			fn = aas( string );
 
 		it( 'should not exist and have to be a string', function (){
