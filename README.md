@@ -1,21 +1,22 @@
 # auto-advanced-search
-Auto-advanced-search is a module to work queries in mysql match-against mode in boolean mode.
 
-A function that returns the same string if the string matches with the Regexp validation, if not, returns false;
+Auto-advanced-search is a module to prepare strings to perform match against in boolean mode modifier in mysql, that handles relevences of the required words for the query.
+
+***Dependencies:*** - ``findhit-util``
+
+***Example:***
 
 ```
-// Require the module
-var mmabm = require( 'auto-advanced-search' );
 
-// Your query
-var query = 'hotchicks';
+// Require dependencies
+var aas = require( 'auto-advanced-search' );
 
-// Check if it passed in the test
-query = mmabm( query );
+// Do the filtering
+var string = 'something that i want to find',
 
-// Do what you want with your tested query
-if( query ){
-	// ...bla bla
-}
+// Call function with the required query
+var query = aas( string );
+
+// query - returns '+something +that +want +find'
 
 ```
