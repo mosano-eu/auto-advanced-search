@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brunocasanova/auto-advanced-search.git"
+    "url": "https://github.com/findhit/auto-advanced-search.git"
   },
   "keywords": [
     "findhit",
@@ -22,12 +22,35 @@
     "mode",
     "brunocasanova"
   ],
-  "author": "Bruno Casanova <deftonicks_me@hotmail.com>",
+  "author": "Bruno Casanova <bruno.casanova@findhit.com>",
+  "contributors": [
+    {
+      "name": "José Moreira",
+      "email": [
+        "jose.moreira@findhit.com",
+        "jmoreira@microdual.com"
+      ]
+    },
+    {
+      "name": "António Loureiro",
+      "email": [
+        "ajbloureiro@findhit.com",
+        "ajb.loureiro@gmail.com"
+      ]
+    },
+    {
+      "name": "Bruno Casanova",
+      "email": [
+        "bruno.casanova@findhit.com",
+        "deftonicks_me@hotmail.com"
+      ]
+    }
+  ],
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/brunocasanova/auto-advanced-search/issues"
+    "url": "https://github.com/findhit/auto-advanced-search/issues"
   },
-  "homepage": "https://github.com/brunocasanova/auto-advanced-search",
+  "homepage": "https://github.com/findhit/auto-advanced-search",
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
