@@ -23,7 +23,7 @@ var string = 'something that i want to find',
 var query = aas( string );
 
 // Returned result
-	// query - returns '+something +that +want +find'
+	// query - returns '+something +that +want +find*'
 ```
 
 ## Explanation:
