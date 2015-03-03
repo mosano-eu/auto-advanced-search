@@ -30,5 +30,110 @@
     {
         "name": "Pensão S. José",
         "intro": "Uma pensão pacata, junto ao parque da Serra da Estrela."
+    },
+    {
+        "name": "Quinta D. José",
+        "intro": ""
+    },
+    {
+        "name": "CARM",
+        "intro": "Vinhos ( Turiga Nacional, Roriz Francesa e Barroca ), Azeites, Amêndoa e Produtos Gourmet."
+    },
+    {
+        "name": "Cantinho do Carmo",
+        "intro": ""
+    },
+    {
+        "name": "Museu Municipal Carmen Miranda",
+        "intro": "Museu criado em homenagem à famosa cantora e atriz brasileira, Carmen Miranda, que nasceu no Marco de Canaveses. O Museu acolhe exposições temporárias de diversas artes."
+    },
+    {
+        "name": "Cabeleireiro Carmy",
+        "intro": ""
+    },
+    {
+        "name": "Ginginha do Carmo",
+        "intro": "Uma taberna típica de bebidas e refrescos reabriu recentemente na Baixa de Lisboa, 40 anos depois do seu encerramento, devolvendo à zona do Carmo a tradição antiga da ginjinha a copo, acompanhada de dois dedos de conversa."
+    },
+    {
+        "name": "O marinheiro",
+        "intro": "O Restaurante O Marinheiro fica situado na Praça D. Filipa de Lencastre, mesmo na baixa do Porto, junto à Câmara Municipal e muito próximo da Torre dos Clérigos."
+    },
+    {
+        "name": "Café Guarda Sol",
+        "intro": "As verdadeiras francesinhas com o molho carcina."
+    },
+    {
+        "name": "Relógio de Sol de Germil",
+        "intro": "Relógio de sol colocado no topo de um dos espigueiros que se encontram neste local. A passagem do tempo é medida pela observação da posição do sol."
+    },
+    {
+        "name": "Solar Moinho de Vento",
+        "intro": "As origens do Solar Moinho de Vento remontam a 1905 quando Maria da Rosa da Silva Pinto e Antonio da Silva Pinto fundaram uma Casa de Pasto neste edifício do século XVI."
+    },
+    {
+        "name": "Café Café",
+        "intro": ""
+    },
+    {
+        "name": "Café Estado do Café",
+        "intro": ""
+    },
+    {
+        "name": "Cafeína",
+        "intro": "O Cafeína é um clássico, o que não o impede de ser um dos restaurantes mais badalados da invicta."
+    },
+    {
+        "name": "Café Santa Cruz",
+        "intro": "A inauguração do luxuoso Café-Restaurante de Santa Cruz ocorre a 8 de Maio de 1923 e é notícia em todos os periódicos da altura. Esta data foi escolhida uma vez o Café se localiza na Praça 8 de Maio."
+    },
+    {
+        "name": "McDonald's Antas",
+        "intro": "McDonald's Portugal é a marca de restauração em que os portugueses mais confiam."
+    },
+    {
+        "name": "McDonald's Boavista",
+        "intro": "McDonald's Portugal é a marca de restauração em que os portugueses mais confiam."
+    },
+    {
+        "name": "McDonald's Via Catarina",
+        "intro": "McDonald's Portugal é a marca de restauração em que os portugueses mais confiam."
+    },
+    {
+        "name": "QB Essence",
+        "intro": "Os sabores são variados e as iguarias são trazidas de várias partes do mundo: desde o wok, à cozinha italiana e à vegetariana, aqui há espaço para diversos apetites."
+    },
+    {
+        "name": "Porto-Rio",
+        "intro": ""
+    },
+    {
+        "name": "Coliseu do Porto",
+        "intro": "O Coliseu do Porto é uma sala de espectáculos localizada na cidade do Porto."
+    },
+    {
+        "name": "Ibis Porto São João",
+        "intro": "O Hotel ibis Porto São João está situado no centro da cidade do Porto, no centro universitário, perto do Hospital de S. João."
+    },
+    {
+        "name": "Chafariz dos Leões",
+        "intro": "A Fonte dos Leões fica situada na Praça de Gomes Teixeira, cidade do Porto, em frente da Reitoria da Universidade do Porto, edifício onde, até 1995, funcionou a Faculdade de Ciências da Universidade do Porto."
+    },
+    {
+        "name": "6Only",
+        "intro": ""
+    },
+    {
+        "name": "Quinta da Foz",
+        "intro": "Gourmet&Cafetaria"
+    },
+    {
+        "name": "Quinta da Foz",
+        "intro": "Gourmet&Cafetaria"
+    },
+    {
+        "name": "Mercure Figueira da Foz Hotel",
+        "intro": "O Hotel Mercure Figueira da Foz é um hotel de 4 estrelas localizado no centro da Cidade da Figueira da Foz."
     }
+
 ]
