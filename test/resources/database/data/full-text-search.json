@@ -128,12 +128,24 @@
         "intro": "Gourmet&Cafetaria"
     },
     {
-        "name": "Quinta da Foz",
-        "intro": "Gourmet&Cafetaria"
+        "name": "Restaurante Foz Velha",
+        "intro": "Em 11 anos de existência, o Foz Velha é uma referência nacional na Gastronomia de Autor, brilhantemente executada pelo Chefe Marco Gomes."
     },
     {
         "name": "Mercure Figueira da Foz Hotel",
         "intro": "O Hotel Mercure Figueira da Foz é um hotel de 4 estrelas localizado no centro da Cidade da Figueira da Foz."
+    },
+    {
+        "name": "Góshó",
+        "intro": "O Restaurante Góshò apresenta a combinação única do que é tradicional e contemporâneo na cozinha japonesa e de fusão: sushi, teppan yakki e tapas japonesas."
+    },
+    {
+        "name": "Lima's Desporto",
+        "intro": "O Lima's Desporto é uma loja de artigos de desporto e lazer com já mais de 25 anos de esistência. Sendo já reconhecido pela sua qualidade no atendimento, variedade de produtos e marcas e por procurar sempre encontrar o melhor para os seus clientes."
+    },
+    {
+        "name": "Café Limas",
+        "intro": ""
     }
 
 ]
