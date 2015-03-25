@@ -31,6 +31,12 @@ Util.Array.each( require( './models' ), function ( filename ) {
 database.synced = database.sync({ force: true });
 database.ready = database.synced
 .then(function () {
+    return Promise.all([
+        database.query( 'SET @ft_min_word_len := 1' ),
+        database.query( 'SET @ft_max_word_len := 80' ),
+    ]);
+})
+.then(function () {
     return Promise.props(
         Util.Object.map( database.models, function ( Model ) {
 
