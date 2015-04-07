@@ -1,6 +1,6 @@
 {
   "name": "auto-advanced-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto-advanced-search is a module to work queries in mysql match-against mode in boolean mode.",
   "main": "index.js",
   "scripts": {

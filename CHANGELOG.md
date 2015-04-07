@@ -1,5 +1,9 @@
 ## Upcoming
 
+## 1.0.1
+- Added security tests (preventing SQL Injections)
+- Added a method for cleaning chars used on SQL Injection approaches
+
 ## 1.0.0
 - super refactoring #9 :
     - API changed, now you should provide: `fields`, `query` and `options`
