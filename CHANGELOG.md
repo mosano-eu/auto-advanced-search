@@ -1,5 +1,10 @@
 ## Upcoming
 
+## 1.0.2
+- Minor refactoring on security testings ( by char )
+- Added more test cases to security ( by char )
+- Covered added test cases
+
 ## 1.0.1
 - Added security tests (preventing SQL Injections)
 - Added a method for cleaning chars used on SQL Injection approaches

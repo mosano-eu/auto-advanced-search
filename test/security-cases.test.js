@@ -9,44 +9,72 @@ var aas = require( '../' ),
 
 describe( 'aas', function () {
 
-    it( "should not break with \"", function (){
-        var query = '\"';
-        var match = aas([
-            'FullTextSearch.name',
-            'FullTextSearch.intro'
-        ], query );
+    function itShouldNotBreakWith ( char ) {
+        it( "should not break with "+ char, function (){
 
-        // expect for no query error
-        return database.models.FullTextSearch.findAll({
-            where: match
+            var query = char;
+            var match = aas([
+                'FullTextSearch.name',
+                'FullTextSearch.intro'
+            ], query );
+
+            // expect for no query error
+            return database.models.FullTextSearch.findAll({
+                where: match
+            });
+
         });
-    });
+    }
 
-    it( "should not break with \'", function (){
-        var query = '\'';
-        var match = aas([
-            'FullTextSearch.name',
-            'FullTextSearch.intro'
-        ], query );
+    [
 
-        // expect for no query error
-        return database.models.FullTextSearch.findAll({
-            where: match
-        });
-    });
+        '"',
+        "'",
+        ';',
+        '(',
+        ')',
+        '()',
+        '!',
+        '?',
+        ':',
+        '-',
+        '_',
+        '`',
+        '´',
+        '|',
+        '\\',
+        '#',
+        '$',
+        '%',
+        '&',
+        '/',
+        '=',
+        '+',
+        'º',
+        'ª',
+        'ç',
+        '~',
+        '^',
+        '§',
+        '±',
+        '@',
+        '€',
+        '£',
+        '‰',
+        '¶',
+        '✓',
+        '«',
+        '»',
+        '>',
+        '<',
+        '≤',
+        '≥',
+        '—',
+        '…',
+        '“',
+        '”',
 
-    it( "should not break with \;", function (){
-        var query = '\;';
-        var match = aas([
-            'FullTextSearch.name',
-            'FullTextSearch.intro'
-        ], query );
-
-        // expect for no query error
-        return database.models.FullTextSearch.findAll({
-            where: match
-        });
-    });
+    ].forEach( itShouldNotBreakWith );
 
     it( "should clean also hexadecimal shits", function (){
         var query = '0x3425f';
